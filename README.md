@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Erechio is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://erechio.de
+Erechio provides a free REST API for validating German e‑invoices according to XRechnung and ZUGFeRD standards, using the official KoSIT rules. Users can upload invoices via the browser or API, receive detailed error explanations in German, and test up to 50 documents per month without payment. The service is hosted in Nürnberg, Germany, and offers a public endpoint at https://api.erechio.de.
+
+**Areas:** German · e-invoice · validation · XRechnung · ZUGFeRD · KoSIT
+
+## Erechio on APIs.io
+
+Everything profiled for Erechio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/erechio/](https://apis.io/providers/erechio/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Erechio Prüfen API](https://apis.io/apis/erechio/erechio-pr-fen-api/) — E-Rechnung prüfen
+- [Erechio Status API](https://apis.io/apis/erechio/erechio-status-api/) — Zustand des Dienstes
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Erechio Agentic Access](https://apis.io/agentic-access/erechio/erechio-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Ergebnis](https://apis.io/schemas/erechio/erechio-ergebnis/)
+- [Status](https://apis.io/schemas/erechio/erechio-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Erechio Context](https://apis.io/jsonld/erechio/erechio-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Erechio API Rules](https://apis.io/rules/erechio/erechio-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Erechio Authentication](https://apis.io/security/erechio/erechio-authentication/)
+- [Erechio Domain Security](https://apis.io/security/erechio/erechio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://erechio.de)
+- [Documentation](https://erechio.de/api/openapi.json)
+- [Getting started](https://erechio.de/api/einstieg.html)
+- [Pricing](https://erechio.de/api/)
+- [Terms of service](https://erechio.de/agb.html)
+- [Privacy policy](https://erechio.de/datenschutz.html)
+- [Status](https://erechio.de/status.html)
+
+## API Evangelist rating
+
+**Kin Score 48.3** — developing · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 31.6 |
+
+**Agent readiness 35.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/erechio/](https://apis.io/providers/erechio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Erechio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/erechio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
